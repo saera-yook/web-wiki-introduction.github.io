@@ -1,133 +1,242 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>자기소개 위키 페이지</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css"/>
     <script src="./js/index.js"></script>
-  </head>
-  <body>
-    <div id="app">
-      <header>
+</head>
+<body>
+<div id="app">
+    <header>
         <h1 class="logo">
-          <img src="./images/header-logo.png" alt="행성이 로고" width="166" height="147" />
-          <span class="text">크루 위키</span>
+            <img src="./images/header-logo.png" alt="행성이 로고" width="166" height="147"/>
+            <span class="text">크루 위키</span>
         </h1>
-      </header>
-      <main>
-        <h2 class="title">크론</h2>
-        <hr />
-        <section>
-          <h3 class="subtitle">자기소개</h3>
-          <p>
-            안녕하세요, 저는 끊임없이 새로운 도전을 통해 성장하는 것을 즐기는 크론이에요. 안정적인 삶에서 벗어나 세 번의
-            큰 전환점을 겪으며 지금의 제가 되었어요. 어제보다 더 나은 오늘의 나를 만들기 위해 노력하고 있죠. 매일의 작은
-            성취들이 모여 제가 한 걸음 더 성장했다는 것을 느낄 때면 가슴이 벅차오르거든요. 그러다 문득, 저처럼 변화를
-            갈망하며 도전을 꿈꾸는 분들이 많다는 것을 알게 되었어요. 나의 성장도 의미 있지만, 누군가의 성장을 함께할 수
-            있다는 건 매일 새로운 설렘을 주는 일이에요.
-          </p>
-        </section>
-
-        <section>
-          <h3 class="subtitle">나를 울린 인생 작품</h3>
-          <article>
-            <h4>인생 영화</h4>
-            <div class="thumbnail">
-              <img
-                src="https://image.tmdb.org/t/p/w1280/u8ffl7CRAS12KA8eQEtkLuHg8Fm.jpg"
-                width="200"
-                alt="그래비티 영화 포스터"
-              />
-            </div>
+    </header>
+    <main>
+        <h2 class="title">아이나</h2>
+        <hr/>
+        <section id="introduction">
+            <h3 class="subtitle">자기소개</h3>
             <p>
-              알폰소 쿠아론 감독이 연출하고 샌드라 불럭이 주연으로 출연하는 영화 「그래비티」는 우주 정거장에서 임무
-              수행 중 고립된 한 우주인의 생존과 귀환을 그린 작품이다. 대학생 시절 처음 본 이 영화는 당시엔 그저 지루한
-              우주 영화였다. 그런데 이 영화를 다시 보니, 마치 내 미래를 미리 보여준 복선과도 같다는 점을 깨달았다.
+                안녕하세요, 저는 새로운 경험과 도전을 두려워하지 않는 아이나에요.
+                낯선 곳에서의 설렘을 즐기며 자유로운 탐험을 좋아하고, 때론 두려움이 앞서도 한계를 뛰어넘는 짜릿함을 느끼죠.
+                현실에 안주하기보다는 꿈과 이상을 향해 나아가며, 실패를 두려워하지 않고 나만의 길을 개척하기 위해 노력하고 있어요.
+                늘 변화를 추구하며 더 큰 세상을 향해 도전하는 것이 저의 삶의 방식입니다.
             </p>
-          </article>
+        </section>
+
+        <section id="my-gallery">
+            <h3 class="subtitle">나만의 갤러리</h3>
+            <article>
+                <h4 class="type">기억에 남는 순간들</h4>
+                <div class="gallery">
+                    <div class="gallery-item"><img src="./images/gallery-image1.png" alt="이미지1"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image2.png" alt="이미지2"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image3.png" alt="이미지3"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image4.png" alt="이미지4"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image5.png" alt="이미지5"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image6.png" alt="이미지6"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image7.jpg" alt="이미지7"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image8.png" alt="이미지8"/></div>
+                    <div class="gallery-item"><img src="./images/gallery-image9.png" alt="이미지9"/></div>
+                </div>
+            </article>
+        </section>
+
+        <section id="masterpiece">
+            <h3 class="subtitle">나를 울린 인생 작품</h3>
+            <article>
+                <h4 class="type">인생 뮤지컬</h4>
+                <div class="thumbnail">
+                    <img
+                            src="https://image.yes24.com/themusical/fileStorage/ThemusicalAdmin/Play/Image/2020092910583776a61f99ce724848b47d40d3f33875bf.jpg"
+                            width="200"
+                            alt="뮤지컬 맨오브라만차 포스터"
+                    />
+                </div>
+                <h5 class="summary">미쳐 돌아가는 이 세상에서 가장 미친 짓은 현실에 안주하고 꿈과 이상을 포기하는 것이라오!</h5>
+                <p>
+                    뮤지컬 「맨 오브 라만차」는 소설 돈키호테의 작가 세르반테스가 종교재판을 기다리는 감옥에서 죄수들을 대상으로 자신의 소설을 극으로 재현하는 극중극 형식의 뮤지컬이다.
+                    라만차에 살고있는 늙은 신사 알론조 키하나는 고전인 기사 이야기를 너무나 많이 읽은 탓에 자신이 돈키호테라는 기사라고 착각하고 시종 산초를 대동하고 모험을 찾아 떠난다.
+                    그러나 그가 만난 것은 용이나 거인이 아닌 평범하기 짝이 없는 사람들. 여관을 성이랍시고 찾아들어간 그는 평범한 여인 알돈자를 숭고한 사랑의 대상인 둘시네아로 이상화한다.
+                    극은 현실과 이상의 갈등 속에서도 "이룰 수 없는 꿈을 꾸는 것"의 가치를 강조하며, 절망 속에서도 희망을 잃지 않는 메시지를 전한다.
+                    “미쳐 돌아가는 이 세상에서 가장 미친 짓은 현실에 안주하고 꿈과 이상을 포기하는 것이라오!”라는 대사는 내 마음을 강하게 흔들었다.
+                    현실의 벽에 부딪혀 이상을 포기하는 것이 당연하게 여겨지는 시대에 돈키호테의 말은 큰 깨달음을 주었다.
+                    그는 비웃음과 멸시 속에서도 이상을 좇는 것이야말로 진정한 용기임을 보여주었다.
+                    또한 “이기고 지는 것은 중요하지 않소. 오직 나에게 주어진 길을 따를 뿐”이라는 대사는 결과에 연연하지 않고 자신의 신념을 끝까지 지켜내는 돈키호테의 모습을 상징한다.
+                    그는 현실의 냉혹함에 굴복하지 않고 자신만의 길을 묵묵히 걸어간다. 그 모습은 단지 허황된 이상주의자가 아닌, 절망 속에서도 희망을 놓지 않는 진정한 인간의 의지를 보여준다.
+                    「맨 오브 라만차」는 단순히 돈키호테의 모험담이 아니라, 꿈을 잃은 현대인들에게 이상을 좇는 것이 미련한 일이 아님을 일깨우는 작품이다.
+                    이 작품을 보며 나 역시 현실에 안주하지 않고 나만의 이상을 향해 나아가야겠다고 다짐하게 되었다.
+                    세상의 비웃음에도 흔들리지 않고 자신의 신념을 지키는 용기를 배우고 실천해야겠다 다짐했다.
+                </p>
+            </article>
         </section>
 
         <section>
-          <div class="comment-writing-container">
-            <form>
-              <fieldset>
-                <legend>댓글 쓰기</legend>
-                <textarea
-                  placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
-                ></textarea>
-              </fieldset>
-            </form>
-          </div>
-          <ul class="comment-list">
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  대학생 때 읽었던 모모가 문득 생각나서 다시 펼쳐봤는데, 글쓴이님 말씀처럼 정말 지금 보니까 완전 다르게
-                  다가오더라구요! 회색 신사들이 들려주는 '시간 절약'이란 말이 마치 요즘 유튜브에서 흔히 보이는 '갓생
-                  살기' 영상들 같아서 씁쓸하게 웃었습니다 ㅎㅎ 광안리 해변 이야기는 정말 이 글의 하이라이트인 것 같아요.
-                  저도 이제는 가끔은 멍때리는 시간을 가져야겠어요 :&#41;
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  와... 크론이라는 닉네임의 의미를 읽고 푸지 이발사가 딱 떠올랐어요. 저도 회사에서 30분 단위로 시간
-                  쪼개서 일정 관리하다가 얼마 전에 번아웃 왔거든요 😅 시간을 아낀다고 오히려 삶을 놓치고 있었던 것
-                  같아서 마음이 찡했습니다. 글쓴이님 글 덕분에 오늘은 퇴근하고 동네 한 바퀴 돌아야겠어요~
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  이 글 읽으면서 계속 고개를 끄덕였네요 👍 특히 자기계발서 이야기... 저도 요즘 '갓생살기' 영상 보면서
-                  조급해졌었는데, 모모 다시 읽어봐야겠어요! 시간은 아끼는 게 아니라 느끼는 거라는 말에 완전 공감입니다.
-                  저도 이제는 하루에 한 번은 커피 마시면서 창밖 구경하기로 했어요 ☕️
-                </div>
-              </div>
-            </li>
-          </ul>
+            <h4 class="type">인생 노래</h4>
+            <div class="thumbnail">
+                <img
+                        src="https://image.bugsm.co.kr/album/images/500/202628/20262800.jpg"
+                        width="200"
+                        alt="괜찮아 괜찮아도 앨범 이미지"
+                />
+            </div>
+            <h5 class="summary">네 모습 그대로 그래 괜찮아 괜찮아도</h5>
+            <p>
+                디오의 괜찮아 괜찮아도는 삶의 다양한 순간들을 따뜻하고 담담하게 그려내며 깊은 위로를 전해주는 곡이다.
+                이 노래는 기쁨과 슬픔, 설렘과 무뎌짐 등 우리가 일상에서 겪는 수많은 감정들을 솔직하게 표현한다.
+                특히 “때론 울고, 때론 웃고, 마음이 가는 대로 있는 그대로”라는 가사는 감정의 자연스러운 흐름을 받아들이며 자신의 모습을 숨기지 않아도 된다는 메시지를 전한다.
+                이를 통해 나는 완벽해야 한다는 압박에서 벗어나 스스로를 있는 그대로 받아들이는 법을 배웠다.
+                또한 “수많은 별이 그랬듯이 언제나 같은 자리에서 제 몫의 빛으로 환하게 비출 테니”라는 가사는 흔들리는 나에게 큰 위로가 되었다.
+                마치 변함없이 빛나는 별처럼 나도 나만의 자리에서 나다운 모습으로 살아가면 된다는 느낌을 받았다.
+                이 노래는 완벽하지 않아도, 때론 흔들리고 방황해도 괜찮다고 말해주며 마음 깊은 곳의 불안을 따뜻하게 감싸준다.
+                무엇보다 “흐르듯 살아도 그냥 괜찮아 괜찮아도”라는 마지막 구절은 항상 모든 순간에 최선을 다하려 애쓰다 지쳤던 나에게 새로운 깨달음을 주었다.
+                살면서 문득 내가 너무 애쓰고 있나? 느껴지는 순간에 나를 다시 돌아볼 수 있게 해주는 노래이다.
+                괜찮아 괜찮아도는 듣는 상황에 따라 다른 느낌으로 다가오는 곡이다.
+                기쁠 때는 행복을 더욱 빛나게 하고, 슬플 때는 따뜻한 위로가 되며, 혼란스러울 때는 스스로를 돌아보게 한다.
+                듣는 이마다 각자의 상황에 따라 다양한 해석이 가능하지만, 그 모든 해석 속에 ‘괜찮다’는 따뜻한 위로가 공통적으로 깔려 있다.
+                단순한 위로를 넘어 삶의 본질을 담담하게 받아들이게 해주는 이 곡을 들으며 나는 완벽하지 않아도, 흔들려도 괜찮다는 사실을 배웠고, 그 덕분에 조금 더 나답게 살아갈 용기를 얻었다.
+            </p>
+        </section>
+
+        <section id="comment">
+            <div class="comment-writing-container">
+                <form id="commentForm">
+                    <fieldset>
+                        <div class="button-container">
+                            <legend>
+                                <img
+                                        src="./images/comment-author-icon.png"
+                                        height="45"
+                                        alt="사용자 프로필 이미지"/>
+                            </legend>
+                            <textarea
+                                    id="commentInput"
+                                    placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
+                                    required
+                            ></textarea>
+
+                            <button type="button" class="cancel-btn" onclick="cancelComment()">취소</button>
+                            <button type="submit" class="submit-btn">등록</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <ul class="comment-list" id="commentList">
+                <li>
+                    <div class="comment-item">
+                        <div class="comment-author">
+                            <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지"/>
+                            <span class="author-name">방문자</span>
+                        </div>
+                        <div class="comment-content">
+                            대학생 때 읽었던 모모가 문득 생각나서 다시 펼쳐봤는데, 글쓴이님 말씀처럼 정말 지금 보니까 완전 다르게
+                            다가오더라구요! 회색 신사들이 들려주는 '시간 절약'이란 말이 마치 요즘 유튜브에서 흔히 보이는 '갓생
+                            살기' 영상들 같아서 씁쓸하게 웃었습니다 ㅎㅎ 광안리 해변 이야기는 정말 이 글의 하이라이트인 것 같아요.
+                            저도 이제는 가끔은 멍때리는 시간을 가져야겠어요 :&#41;
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="comment-item">
+                        <div class="comment-author">
+                            <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지"/>
+                            <span class="author-name">방문자</span>
+                        </div>
+                        <div class="comment-content">
+                            와... 크론이라는 닉네임의 의미를 읽고 푸지 이발사가 딱 떠올랐어요. 저도 회사에서 30분 단위로 시간
+                            쪼개서 일정 관리하다가 얼마 전에 번아웃 왔거든요 😅 시간을 아낀다고 오히려 삶을 놓치고 있었던 것
+                            같아서 마음이 찡했습니다. 글쓴이님 글 덕분에 오늘은 퇴근하고 동네 한 바퀴 돌아야겠어요~
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="comment-item">
+                        <div class="comment-author">
+                            <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지"/>
+                            <span class="author-name">방문자</span>
+                        </div>
+                        <div class="comment-content">
+                            이 글 읽으면서 계속 고개를 끄덕였네요 👍 특히 자기계발서 이야기... 저도 요즘 '갓생살기' 영상 보면서
+                            조급해졌었는데, 모모 다시 읽어봐야겠어요! 시간은 아끼는 게 아니라 느끼는 거라는 말에 완전 공감입니다.
+                            저도 이제는 하루에 한 번은 커피 마시면서 창밖 구경하기로 했어요 ☕️
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
         </section>
 
         <footer>
-          <img src="./images/footer-logo.png" width="180" alt="우아한테크코스 로고" />
-          <p>&copy; 우아한테크코스 All Rights reserved.</p>
+            <img src="./images/footer-logo.png" width="180" alt="우아한테크코스 로고"/>
+            <p>&copy; 우아한테크코스 All Rights reserved.</p>
         </footer>
-      </main>
-      <aside class="right-sidebar">
+    </main>
+    <aside class="right-sidebar">
         <div class="profile-image">크론 프로필 이미지</div>
         <nav>
-          <h2>Contents</h2>
-          <ol class="contents">
-            <li>
-              <a href="#">자기소개</a>
-            </li>
-            <li>
-              <a href="#">나만의 갤러리</a>
-            </li>
-            <li>
-              <a href="#">나를 울린 인생 작품</a>
-            </li>
-            <li>
-              <a href="#">감상평</a>
-            </li>
-          </ol>
+            <h2>Contents</h2>
+            <ol class="contents">
+                <li>
+                    <a href="#introduction">자기소개</a>
+                </li>
+                <li>
+                    <a href="#my-gallery">나만의 갤러리</a>
+                </li>
+                <li>
+                    <a href="#masterpiece">나를 울린 인생 작품</a>
+                </li>
+                <li>
+                    <a href="#comment">감상평</a>
+                </li>
+            </ol>
         </nav>
-      </aside>
-    </div>
-  </body>
+    </aside>
+</div>
+
+<script>
+    // 댓글 폼 제출 이벤트 처리
+    document.getElementById("commentForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // 기본 폼 제출 방지
+
+        // 입력한 댓글 내용 가져오기
+        const commentInput = document.getElementById("commentInput");
+        const commentText = commentInput.value.trim();
+
+        if (commentText) {
+            // 새로운 댓글 요소 생성
+            const newComment = document.createElement("li");
+            newComment.innerHTML = `
+            <div class="comment-item">
+                <div class="comment-author">
+                    <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지"/>
+                    <span class="author-name">방문자</span>
+                </div>
+                <div class="comment-content">
+                    ${commentText}
+                </div>
+            </div>
+            `;
+
+            // 댓글 목록에 추가
+            const commentList = document.getElementById("commentList");
+            commentList.appendChild(newComment);
+
+            // Alert 창 띄우기
+            alert("댓글이 등록되었습니다");
+
+            // 입력창 초기화
+            commentInput.value = "";
+        }
+    });
+
+    // 취소 버튼 동작
+    function cancelComment() {
+        document.getElementById("commentInput").value = "";
+    }
+</script>
+</body>
 </html>
